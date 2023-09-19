@@ -1,0 +1,110 @@
+body {
+    background-repeat: no-repeat;
+    background-size: auto;
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+}
+
+section {
+    border: 35px; 
+    border-style: outset;
+    border-radius: 45px 15px 45px 15px;
+    margin: 35px;   
+    border-width: medium;
+    font-size: larger;
+    padding: 50px;
+    background-color: rgb(100, 99, 99);
+    background: linear-gradient()
+}
+
+aside {
+    border: 35px;
+    border-style: outset;
+    margin: 35px;
+    border-width: medium;
+    border-radius: 15px;
+    padding: 50px;
+    background-color: rgb(100, 99, 99);
+
+}
+
+footer {
+    background-color: rgb(8, 8, 8);
+    color: aliceblue;
+    padding: 25px;
+    margin: 35px;
+    border-radius: 15px;
+    position: sticky;
+    bottom: 0px;
+}
+
+#mainMenu {
+    width: 800px;          
+}
+
+#mainMenu li {
+    display: block;
+    float: left;
+    width: 120px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 15px;
+    border-style: outset;
+
+}
+
+#mainMenu a {
+    display: block;
+    text-decoration: none;
+    background-color: brown;
+    color: yellow;
+    font-size: 25px;
+
+}
+
+nav {
+    position: sticky;
+    top: 35px;
+    padding: 10px
+    
+}
+
+.button {
+    text-decoration: none;
+    padding: 20px;
+    background-color: brown;
+    color: yellow;
+    border-radius: 15px;
+        
+    
+}
+
+.button:hover {
+    background-color: black;
+    color: beige;
+    border-style: groove;
+}
+
+.menu {
+    border-radius: 15px 5px 15px 5px;
+    }
+
+p {
+    font-size: 25px;
+}
+
+label {
+    font-size: 25px;
+}
+
+section:hover {
+    background-color: azure;
+}
+
+#mainMenu li:hover {
+    border-style: inset;
+}
+
+aside {
+    font-size: 25px;
+}
